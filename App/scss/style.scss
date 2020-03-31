@@ -252,7 +252,7 @@ a{
         width:50%;
     }
     &-row--button{
-        height: 500px;
+        height: 800px;
         margin-top: -80px;
         .img{
             width: 50%;
@@ -298,6 +298,8 @@ a{
         transition: all 0.6s;
         filter: grayscale(1);
         width: calc(50% - 40px);
+        height: 50%;
+        margin: auto;
         padding: 0 20px;
         &:hover{
             filter: none;
@@ -612,7 +614,7 @@ a{
             background-size: contain;
             background-repeat: no-repeat;
             background-size: auto auto ;
-            background-position: center;
+            background-position: top;
         }
     }
     .skate{
